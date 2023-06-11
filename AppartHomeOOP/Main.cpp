@@ -28,6 +28,8 @@ int main() {
     // Виведення інформації про будинок
     house.printInfo();
 
+    house.~House();
+
     return 0;
 
 
